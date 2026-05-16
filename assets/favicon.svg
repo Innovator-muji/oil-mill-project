@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#1a0f02"/>
+  <!-- Oil drop shape in white -->
+  <path d="M32 8 C32 8 16 28 16 38 C16 46.8 23.2 54 32 54 C40.8 54 48 46.8 48 38 C48 28 32 8 32 8Z" fill="white"/>
+  <!-- Shine highlight on drop -->
+  <ellipse cx="26" cy="33" rx="4" ry="7" fill="rgba(212,160,23,0.6)" transform="rotate(-20 26 33)"/>
+</svg>
