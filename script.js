@@ -91,3 +91,23 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 const heroStats = document.querySelector('.hero-stats');
 if (heroStats) counterObserver.observe(heroStats);
+
+// Promo Popup Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const promoPopup = document.getElementById('promo-popup');
+  const promoClose = document.getElementById('promo-close');
+  
+  // Show popup after 3 seconds
+  setTimeout(() => {
+    if (promoPopup) {
+      promoPopup.classList.add('show');
+    }
+  }, 3000);
+  
+  // Close popup logic
+  if (promoClose) {
+    promoClose.addEventListener('click', () => {
+      promoPopup.classList.remove('show');
+    });
+  }
+});
