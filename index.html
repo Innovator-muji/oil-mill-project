@@ -518,6 +518,34 @@
     </div>
   </div>
 
+  <!-- Chatbot -->
+  <div class="chatbot-container" id="chatbot-container">
+    <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Open chat">
+      <i class="fa-solid fa-headset"></i>
+    </button>
+    <div class="chatbot-window" id="chatbot-window">
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-avatar"><i class="fa-solid fa-headset"></i></div>
+          <div>
+            <h4>Vetri Assistant</h4>
+            <p>Online</p>
+          </div>
+        </div>
+        <button class="chatbot-close" id="chatbot-close"><i class="fa-solid fa-chevron-down"></i></button>
+      </div>
+      <div class="chatbot-messages" id="chatbot-messages">
+        <div class="chat-msg bot-msg">
+          Hello! 👋 Welcome to Vetri Oil Mill. How can I help you today?
+        </div>
+      </div>
+      <div class="chatbot-input-area">
+        <input type="text" id="chatbot-input" placeholder="Type a message..." />
+        <button id="chatbot-send"><i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 
